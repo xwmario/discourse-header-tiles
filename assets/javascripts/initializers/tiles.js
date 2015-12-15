@@ -67,7 +67,7 @@ Discourse.PageTracker.current().on('change', function(url) {
 				 if(post.image_url !== null){
                 tiles += "<div class='icw-img' style='background-image: url(" + imageURL + ")'></div>";
 				} else {
-					tiles += "<div class='icw-img' style='background-image: url(//polygonalweave.com/Images/Generic/POLY08s.jpg)'></div>";
+					tiles += "<div class='icw-img' style='background-image: url(//animeforums.me/uploads/default/original/1X/9c03c49829ebcc33e60755aea172617c8e64e7a9.jpg)'></div>";
 				}
 					tiles += "<a class='tile-hover' href=" + post.link_counts[0].url + ">";
 						tiles += "<h2 class='tile-title'>" + post.link_counts[0].title + "</h2>";
