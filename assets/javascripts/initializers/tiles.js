@@ -36,7 +36,7 @@ Discourse.PageTracker.current().on('change', function(url) {
 
         var owl = $("#variation");
   		  owl.owlCarousel({
-			  jsonPath : url,
+			  jsonPath : 'c/anime/Season/l/latest.json',
 			  items : 4, //4 items above 1000px browser width
 			  itemsDesktop : [1000,4], //4 items between 1000px and 901px
 			  itemsDesktopSmall : [900,3], // 3 betweem 900px and 601px
